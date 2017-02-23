@@ -12,6 +12,7 @@
 	
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 	
 </head>
 <body>
@@ -90,7 +91,7 @@
 						</div><!-- /panel-heading -->	
 						<div class="panel-body">
 							<div class="tabele-responsive">
-								<table class="table table-condensed table-bordered">
+								<table class="table table-condensed table-bordered" id="main-table">
 								<thead>
 									<tr>
 										<th></th>
@@ -103,42 +104,42 @@
 										<th></th>
 									</tr>
 								</thead>
-								<tbody>
-							      <tr>
-							        	<td><i class="fa fa-th" aria-hidden="true"></i></td>
-						        		<td>1</td>
-						        		<td>Services:Business Software</td>
-								        <td></td>
-								        <td>1</td>
-								        <td>15000</td>
-								        <td>15000</td>
-								        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
-							        </tr>
-							        <tr>
-							        <td><i class="fa fa-th" aria-hidden="true"></i></td>
-							        <td>2</td>
-							        <td>
-							        	<div class="row">
-											<div class="col-sm-12">
-												<div class="input-group dropdown combobox">
-													<input class="form-control" type="text">
-													<div class="input-group-btn">
-														<button class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="caret"></i></button>
-														<ul class="dropdown-menu">
-															<li><a href="#">Item One</a></li>
-															<li><a href="#">Item Two</a></li>
-															<li><a href="#">Item Three</a></li>
-															<li><a href="#">Item Four</a></li>
-														</ul>
-													</div>
+								<tbody id="table-body">
+									<div id="table-row-wrapper">
+									    <tr>
+								        	<td><i class="fa fa-th" aria-hidden="true"></i></td>
+							        		<td>1</td>
+							        		<td>Services:Business Software</td>
+									        <td></td>
+									        <td>1</td>
+									        <td>15000</td>
+									        <td>15000</td>
+									        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+							        	</tr>
+						        	</div>
+						        <tr>
+						        <td><i class="fa fa-th" aria-hidden="true"></i></td>
+						        <td>2</td>
+						        <td>
+						        	<div class="row">
+										<div class="col-sm-12">
+											<div class="input-group dropdown combobox">
+												<input class="form-control" type="text">
+												<div class="input-group-btn">
+													<button class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="caret"></i></button>
+													<ul class="dropdown-menu">
+														<li><a href="#">Item One</a></li>
+														<li><a href="#">Item Two</a></li>
+														<li><a href="#">Item Three</a></li>
+														<li><a href="#">Item Four</a></li>
+													</ul>
 												</div>
 											</div>
-											</td>
-											<td>
-											<div class="col-sm-12">
-												<input class="form-control" type="text">
-											</div>
-										
+										</div>
+										</td>
+										<td>
+										<div class="col-sm-12">
+											<input class="form-control" type="text">
 							        </td>
 							        <td>1</td>
 							        <td>20000</td>
@@ -153,16 +154,17 @@
 							        <td  colspan="4"></td>
 							        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
 							       </tr>
+							       </div>
 							    </tbody>
 								</table>
-							</div>
+							</div><!--end div tabele-responsive  -->
 							
 							<div class="row">
 								
 									<div class="col-sm-4">
 										<div class="form-group">
-											<button type="button" class="btn btn-default btn-sm">Add lines</button>
-								    		<button type="button" class="btn btn-default btn-sm">Clear all lines</button>
+											<button type="button" class="btn btn-default btn-sm" id="add-line">Add lines</button>
+								    		<button type="button" class="btn btn-default btn-sm" id="clear-all-rows">Clear all lines</button>
   											<button type="button" class="btn btn-default btn-sm">Add subtotal</button>
 										</div>
 										<div class="form-group">
