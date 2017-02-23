@@ -114,7 +114,9 @@
 									        <td>1</td>
 									        <td>15000</td>
 									        <td>15000</td>
-									        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+									        <td>
+									        	<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
+									        </td>
 							        	</tr>
 						        	</div>
 						        <tr>
@@ -144,7 +146,10 @@
 							        <td>1</td>
 							        <td>20000</td>
 							        <td>20000</td>
-							        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+							        <td>
+									   <a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
+									</td>
+							        
 							      </tr>
 							      
 							      <tr>
@@ -152,7 +157,9 @@
 							        <td>3</td>
 							        <td></td>
 							        <td  colspan="4"></td>
-							        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+							       <td>
+									  <a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
+								   </td>
 							       </tr>
 							       </div>
 							    </tbody>

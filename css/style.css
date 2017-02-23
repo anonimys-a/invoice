@@ -6,3 +6,9 @@
 th.first {
     width: 207px;
 }
+.btn-link-color {
+	color: #555;
+}
+.btn-link-padding {
+	padding: 2px;
+}
