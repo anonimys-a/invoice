@@ -119,7 +119,7 @@
 	        							<textarea class="form-control" rows="4" id="ex3"></textarea>
 									</div>
 								</div>
-								<div class="col-sm-5 col-sm-offset-3">
+								<div class="col-sm-3 col-sm-offset-5">
 									<table class="table table-clear">
 										<tbody>
 											<tr>
