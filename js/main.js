@@ -7,7 +7,7 @@ $(document).ready(function() {
 	
 	//add new row in a table
 	$('#add-line').click(function(e) {
-	    $('#table-row-wrapper').contents().appendTo('#table-row-wrapper').end().fadeOut();
+	    $('#table-body').append('<tr>' + $('#table-body').children('tr:first').html() + '</tr>')
 	});
 	
 	//delete one row

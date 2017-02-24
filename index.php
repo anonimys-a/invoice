@@ -100,60 +100,16 @@
 										</tr>
 									</thead>
 									<tbody id="table-body">
-										<div id="table-row-wrapper">
-											<tr>
-												<td><i class="fa fa-th" aria-hidden="true"></i></td>
-												<td>1</td>
-												<td>Services:Business Software</td>
-												<td></td>
-												<td>1</td>
-												<td>15000</td>
-												<td>15000</td>
-												<td>
-									        	<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
-												</td>
-											</tr>
-										</div>
-										<tr>
+										<tr id="table-row-invoice">
 											<td><i class="fa fa-th" aria-hidden="true"></i></td>
-											<td>2</td>
-											<td>
-												<div class="row">
-													<div class="col-sm-12">
-														<div class="input-group dropdown combobox">
-															<input class="form-control" type="text">
-															<div class="input-group-btn">
-																<button class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="caret"></i></button>
-																<ul class="dropdown-menu">
-																	<li><a href="#">Item One</a></li>
-																	<li><a href="#">Item Two</a></li>
-																	<li><a href="#">Item Three</a></li>
-																	<li><a href="#">Item Four</a></li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<div class="col-sm-12">
-													<input class="form-control" type="text">
-												</div>
-											</td>
 											<td>1</td>
-											<td>20000</td>
-											<td>20000</td>
-											<td>
-												<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
-											</td>
-										</tr>
-										<tr>
-											<td><i class="fa fa-th" aria-hidden="true"></i></td>
-											<td>3</td>
+											<td>Services:Business Software</td>
 											<td></td>
-											<td  colspan="4"></td>
+											<td>1</td>
+											<td>15000</td>
+											<td>15000</td>
 											<td>
-												<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
+								        	<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
 											</td>
 										</tr>
 									</tbody>
