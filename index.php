@@ -36,16 +36,16 @@
 								  		<div class="col-sm-12">
 											<div class="col-sm-3">
 												<label for="sel1"></label>
-												<select class="form-control" id="sel1">
-													<option>1</option>
-													<option>2</option>
-													<option>3</option>
-													<option>4</option>
+												<select class="form-control" id="company-selector">
+													<option value="ceko.trade@hotmail.com">Ceko Trade</option>
+													<option value="vip@hotmail.com">Vip</option>
+													<option value="telekom@hotmail.com">Telekom</option>
+													<option value="evn.skopje@hotmail.com">EVN Skopje</option>
 												</select>
 											</div>
 											<div class="col-sm-3">
 												<label for="exampleInputEmail2"></label>
-												<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+												<input type="email" class="form-control" id="company-email" placeholder="email@example.com">
 											  	<div class="checkbox">
 												    <label>
 												      	<input type="checkbox"> Send later
