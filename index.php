@@ -127,16 +127,13 @@
 												<td class="text-right"><strong>den</strong><span id="subtotal"><strong>  0.00</strong></span></td>                 
 											</tr>
 											<tr>
-												<td class="pull-left" style="padding-right: 0;">
+												<td class="text-left">
 													<select class="form-control" id="sel4">
 													    <option><strong>Discaunt percent</strong></option>
-													    <option>10</option>
 													    <option>20</option>
 													    <option>30</option>
+													    <option>40</option>
 													</select>
-												</td>
-												<td class="pull-left" width="80" style="padding-left: 2px;">
-	        										<input class="form-control" id="ex5" type="text">
 												</td>
 												<td class="text-right"><strong>den0,00</strong></td>                      
 											</tr>
