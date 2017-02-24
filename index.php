@@ -162,11 +162,13 @@
 						<div class="panel-footer">
 							<div class="row">
 								<div class="col-sm-4">
-									<button type="button" class="btn btn-default">Cancel</button>
+									<button type="button" class="btn btn-default pull-left">Cancel</button>
 									<button type="button" class="btn btn-default">Clear</button>
 								</div>
-								<div class="col-sm-4">
-									<p><a href="#">Print or Preview</a> | <a href="#">Customise</a></p>
+								<div class="col-sm-4 text-center">
+									<button type="button" class="btn btn-link">Print or Preview</button>
+									<span>|</span>
+									<button type="button" class="btn btn-link">Customise</button>
 								</div>
 								<div class="col-sm-4">
 									<button type="button" class="btn btn-default pull-right">Save and send</button>
