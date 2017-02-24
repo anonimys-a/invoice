@@ -9,7 +9,7 @@ $(document).ready(function() {
 		+ '<td>15000</td>'
 		+ '<td>15000</td>'
 		+ '<td>'
-		+ '<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>'
+		+ '<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash row-delete" aria-hidden="true"></i></a>'
 		+ '</td>'
 		+ '</tr>';
 	
@@ -24,8 +24,12 @@ $(document).ready(function() {
 	});
 	
 	//delete one row
-	$('#clear-all-rows').click(function(e) {
-	    $('#main-table tbody').empty();
+	$('.row-delete').click(function(e) {
+	    $(this).parent();
+	});
+	
+	$(document).on('click', '.row-delete', function() {
+		$(this).parent().parent().parent().remove();
 	});
 	
 	
