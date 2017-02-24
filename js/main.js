@@ -13,6 +13,8 @@ $(document).ready(function() {
 		+ '</td>'
 		+ '</tr>';
 	
+	var value = 0;
+	
 	//delete all rows in a table
 	$('#clear-all-rows').click(function(e) {
 	    $('#main-table tbody').empty();
@@ -45,4 +47,18 @@ $(document).ready(function() {
 			$('#company-email').val($(this).val());
 		});
 	});
+	
+	//calculate subtotal amount
+	$('#add-subtotal').click(function(e) {
+		$('#subtotal').text(calculateSubtotal());
+		value = 0;
+	});
+	
+	function calculateSubtotal() {
+		$('#main-table > tbody  > tr').each(function() {
+			value += Number($(this).find('td:eq(6)').html());
+		});
+		
+		return value;
+	}
 });

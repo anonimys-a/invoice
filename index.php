@@ -108,7 +108,7 @@
 									<div class="form-group">
 										<button type="button" class="btn btn-default btn-sm" id="add-line">Add lines</button>
 								    	<button type="button" class="btn btn-default btn-sm" id="clear-all-rows">Clear all lines</button>
-  										<button type="button" class="btn btn-default btn-sm">Add subtotal</button>
+  										<button type="button" class="btn btn-default btn-sm" id="add-subtotal">Add subtotal</button>
 									</div>
 									<div class="form-group">
 										<label for="ex2">Message displayed on invoice</label>
@@ -124,7 +124,7 @@
 										<tbody>
 											<tr>
 												<td class="text-right"><strong>Subtotal</strong></td>
-												<td class="text-right"><strong>den35.000,00</strong></td>                 
+												<td class="text-right"><strong>den</strong><span id="subtotal"><strong>  0.00</strong></span></td>                 
 											</tr>
 											<tr>
 												<td class="text-left">
