@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var rowHtml = '<tr id="table-row-invoice">'
 		+ '<td><i class="fa fa-th" aria-hidden="true"></i></td>'
 		+ '<td>1</td>'
-		+ '<td>Services:Business Software</td>'
+		+ '<td><a href="#" id="product-service">Services:Business Software</a></td>'
 		+ '<td></td>' 
 		+ '<td>1</td>'
 		+ '<td>15000</td>'
@@ -40,6 +40,15 @@ $(document).ready(function() {
 	
 	//added one row when page is loaded
 	$('#table-body').append(rowHtml);
+	
+	//edit column for product-service
+	$('#product-service').editable({
+		type:  'text',
+		pk:1,
+		name:  'product-service',
+		title: 'Enter product/service'   
+	
+	});
 	
 	//calculate subtotal amount on load
 	var subtotalOnLoad = calculateSubtotal();
