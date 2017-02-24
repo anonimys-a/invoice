@@ -169,19 +169,8 @@
 									<p><a href="#">Print or Preview</a> | <a href="#">Customise</a></p>
 								</div>
 								<div class="col-sm-4">
-									<button type="button" class="btn btn-default pull-left">Save</button>
-									<div class="input-group dropdown combobox">
-										<input class="form-control" type="text">
-										<div class="input-group-btn">
-											<button class="btn btn-default dropdown-toggle" data-toggle="dropdown"><i class="caret"></i></button>
-											<ul class="dropdown-menu dropdown-menu-left">
-												<li><a href="#">Save and send</a></li>
-												<li><a href="#">Item Two</a></li>
-												<li><a href="#">Item Three</a></li>
-												<li><a href="#">Item Four</a></li>
-											</ul>
-										</div>
-									</div>
+									<button type="button" class="btn btn-default pull-right">Save and send</button>
+									<button type="button" class="btn btn-default pull-right">Save</button>
 								</div>
 							</div>
 						</div><!-- /panel-footer-->
