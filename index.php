@@ -119,7 +119,7 @@
 	        							<textarea class="form-control" rows="4" id="ex3"></textarea>
 									</div>
 								</div>
-								<div class="col-sm-3 col-sm-offset-5">
+								<div class="col-sm-5 col-sm-offset-3">
 									<table class="table table-clear">
 										<tbody>
 											<tr>
@@ -127,13 +127,16 @@
 												<td class="text-right"><strong>den</strong><span id="subtotal"><strong>  0.00</strong></span></td>                 
 											</tr>
 											<tr>
-												<td class="text-left">
+												<td class="pull-left" style="padding-right: 0;">
 													<select class="form-control" id="sel4">
 													    <option><strong>Discaunt percent</strong></option>
+													    <option>10</option>
 													    <option>20</option>
 													    <option>30</option>
-													    <option>40</option>
 													</select>
+												</td>
+												<td class="pull-left" width="80" style="padding-left: 2px;">
+	        										<input class="form-control" id="ex5" type="text">
 												</td>
 												<td class="text-right"><strong>den0,00</strong></td>                      
 											</tr>
