@@ -41,6 +41,13 @@ $(document).ready(function() {
 	//added one row when page is loaded
 	$('#table-body').append(rowHtml);
 	
+	//calculate subtotal amount on load
+	var subtotalOnLoad = calculateSubtotal();
+	$('#subtotal').text(subtotalOnLoad);
+	$('#balance-due-value').text(subtotalOnLoad);
+	$('#balance-due').text(subtotalOnLoad);
+	
+	
 	//add email address in the field for the chosen company
 	$('#company-selector').change(function() {
 		$(this).find(":selected").each(function () {
@@ -48,13 +55,15 @@ $(document).ready(function() {
 		});
 	});
 	
-	//calculate subtotal amount
+	//calculate subtotal amount on click
 	$('#add-subtotal').click(function(e) {
 		$('#subtotal').text(calculateSubtotal());
-		value = 0;
+		$('#balance-due-value').text(calculateSubtotal());
+		$('#balance-due').text(calculateSubtotal());
 	});
 	
 	function calculateSubtotal() {
+		value = 0;
 		$('#main-table > tbody  > tr').each(function() {
 			value += Number($(this).find('td:eq(6)').html());
 		});

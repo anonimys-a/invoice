@@ -54,7 +54,7 @@
 										  	</div>
 											<div class="col-sm-4 col-sm-offset-2 text-right">
 										  		<small>BALANCE DUE</small>
-										  		<h1>den35.000,00</h1>
+										  		<h1><span>den </span><span id="balance-due-value">000</span>,00</h1>
 										  	</div>
 									  	</div>
 										<div class="col-sm-12">
@@ -143,7 +143,7 @@
 											</tr>
 											<tr>
 												<td class="text-right"><strong>Balance due</strong></td>
-												<td class="text-right"><strong>den35.000,00</strong></td>                
+												<td class="text-right"><strong>den	</strong><span id="balance-due"><strong>  0.00</strong></span></td>                
 											</tr>                                  
 										</tbody>
 									</table>
