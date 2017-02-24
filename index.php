@@ -6,14 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Invoice</title>
 	
+	<link href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> 
-	
+
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
-	
 </head>
 <body>
 	<section>
@@ -152,8 +152,9 @@
 							<div class="row">
 								<div class="col-sm-5">
 									<div class="form-group">
+										<i class="fa fa-paperclip" aria-hidden="true"><span id="attachement"><input id="attach-file" type="file"></span></i>
 										<label for="ex">Attachements Maximum size:25MB</label>
-		        						<textarea class="form-control text-center" cols="70" rows="3" id="ex5" placeholder="Drag/Drop files here or click the icon"></textarea>
+		        						<textarea class="form-control text-center attachment-area" readonly cols="70" rows="3" id="ex5" placeholder="Drag/Drop files here or click the icon"></textarea>
 		        						<span class="text-center">Show existing</span>
 									</div>
 								</div>

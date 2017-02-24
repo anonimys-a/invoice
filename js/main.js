@@ -70,4 +70,11 @@ $(document).ready(function() {
 		
 		return value;
 	}
+	
+	//handle attachment of a file
+	$('#attachement').change(function() {
+		var fileName = $('#attach-file')[0].files[0].name;
+		$('.attachment-area').val(fileName); // This sets the file name
+	});
+
 });
