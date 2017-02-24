@@ -100,18 +100,6 @@
 										</tr>
 									</thead>
 									<tbody id="table-body">
-										<tr id="table-row-invoice">
-											<td><i class="fa fa-th" aria-hidden="true"></i></td>
-											<td>1</td>
-											<td>Services:Business Software</td>
-											<td></td>
-											<td>1</td>
-											<td>15000</td>
-											<td>15000</td>
-											<td>
-								        	<a href="#" class="btn btn-link btn-link-color btn-link-padding"><i class="fa fa-trash" aria-hidden="true"></i></a>
-											</td>
-										</tr>
 									</tbody>
 								</table>
 							</div> <!--end div tabele-responsive  -->
